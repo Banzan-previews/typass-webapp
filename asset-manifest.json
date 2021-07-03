@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/typass-webapp/static/css/main.878e2337.chunk.css",
+    "main.js": "/typass-webapp/static/js/main.a27e34b4.chunk.js",
+    "main.js.map": "/typass-webapp/static/js/main.a27e34b4.chunk.js.map",
+    "runtime-main.js": "/typass-webapp/static/js/runtime-main.fb662253.js",
+    "runtime-main.js.map": "/typass-webapp/static/js/runtime-main.fb662253.js.map",
+    "static/js/2.31bb11e8.chunk.js": "/typass-webapp/static/js/2.31bb11e8.chunk.js",
+    "static/js/2.31bb11e8.chunk.js.map": "/typass-webapp/static/js/2.31bb11e8.chunk.js.map",
+    "static/js/3.aeb8c5fd.chunk.js": "/typass-webapp/static/js/3.aeb8c5fd.chunk.js",
+    "static/js/3.aeb8c5fd.chunk.js.map": "/typass-webapp/static/js/3.aeb8c5fd.chunk.js.map",
+    "static/js/4.176d9577.chunk.js": "/typass-webapp/static/js/4.176d9577.chunk.js",
+    "static/js/4.176d9577.chunk.js.map": "/typass-webapp/static/js/4.176d9577.chunk.js.map",
+    "static/js/5.713c0c7d.chunk.js": "/typass-webapp/static/js/5.713c0c7d.chunk.js",
+    "static/js/5.713c0c7d.chunk.js.map": "/typass-webapp/static/js/5.713c0c7d.chunk.js.map",
+    "index.html": "/typass-webapp/index.html",
+    "static/css/main.878e2337.chunk.css.map": "/typass-webapp/static/css/main.878e2337.chunk.css.map",
+    "static/js/2.31bb11e8.chunk.js.LICENSE.txt": "/typass-webapp/static/js/2.31bb11e8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb662253.js",
+    "static/js/2.31bb11e8.chunk.js",
+    "static/css/main.878e2337.chunk.css",
+    "static/js/main.a27e34b4.chunk.js"
+  ]
+}
