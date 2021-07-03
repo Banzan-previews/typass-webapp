@@ -1,0 +1,16 @@
+{
+"companyName": "Banzan Ventures",
+"productName": "Tym Pass with BaBlah",
+"productVersion": "0.5",
+"dataUrl": "ball_juggle.data.unityweb",
+"wasmCodeUrl": "ball_juggle.wasm.code.unityweb",
+"wasmFrameworkUrl": "ball_juggle.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.17f1"
+}

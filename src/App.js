@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState, useEffect, Suspense} from "react";
+import {BrowserRouter,Switch,Route} from 'react-router-dom'
+import ClipLoader from "react-spinners/ClipLoader";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css'
+
+
+const Home = React.lazy(()=> import('./Home'))
+const Game1 = React.lazy(()=> import('./Game1'))
+
+
+ 
+export default function App() {
+
+  return(
+    <BrowserRouter>
+      <Suspense fallback={<LoaderScreen/>} >
+          <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/game1' component={Game1} />
+          </Switch>
+      </Suspense>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+const LoaderScreen = ()=>{
+
+  return(
+    <div  style={{textAlign:'center',position:'fixed',top:'50%', left:'calc(50% - 10px)'}}>
+      <ClipLoader/>
+    </div>
+  )
+}
